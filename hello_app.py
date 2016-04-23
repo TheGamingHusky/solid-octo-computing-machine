@@ -22,7 +22,7 @@ def hello():
     
     
     print program_info
-
+    return program_info
 if __name__ == "__main__":
     # go get the PORT from the environment
     port = os.environ.get("PORT")
