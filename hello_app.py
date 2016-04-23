@@ -19,10 +19,8 @@ def hello():
     program_info = """This is the activity picker program it will
         pick a random typing program to use
         Todays activity is """ +typing_choice
+    return typing_choice
     
-    
-    print program_info
-    return program_info
 if __name__ == "__main__":
     # go get the PORT from the environment
     port = os.environ.get("PORT")
